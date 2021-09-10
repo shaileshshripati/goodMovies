@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+:root {
+  --main-color: #a5b4fc;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.data ul li {
+  background-color: #a5b4fc;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  font-family: 'Lobster', cursive;
+  background-color: var(--main-color);
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: white;
+}
